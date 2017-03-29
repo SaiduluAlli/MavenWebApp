@@ -16,6 +16,18 @@
 		<logback.version>1.0.13</logback.version>
 		<jcl-over-slf4j.version>1.7.5</jcl-over-slf4j.version>
 	</properties>
+        <distributionManagement>
+    	   <repository>
+	      <id>nexus</id>
+	      <name>Nexus Releases</name>
+	      <url>http://192.168.157.128:9999/nexus3/repository/allisrepo/</url>
+	   </repository>
+	   <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Nexus Snapshot</name>
+	      <url>http://192.168.157.128:9999/nexus3/repository/allisrepo/</url>
+	   </snapshotRepository>
+	</distributionManagement>
 
 	<dependencies>
 
